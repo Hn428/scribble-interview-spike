@@ -1,0 +1,31 @@
+{
+  "name": "scribble-interview-spike",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interview-ready AI workflow spike for a home health documentation platform (synthetic data, mocked workflow).",
+  "scripts": {
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@langfuse/openai": "^5.9.0",
+    "@langfuse/otel": "^5.9.0",
+    "@langfuse/tracing": "^5.9.0",
+    "@opentelemetry/api": "^1.9.1",
+    "@opentelemetry/sdk-node": "^0.219.0",
+    "next": "^14.2.35",
+    "openai": "^6.45.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.5.3"
+  }
+}
